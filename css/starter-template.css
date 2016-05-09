@@ -2,7 +2,13 @@ body {
     padding-top: 50px;
 }
 
-h1 {
+table.floatThead-table {
+    border-top: none;
+    border-bottom: none;
+    background-color: #FFF;
+}
+
+h2 {
 	text-align: center;
 }
 
