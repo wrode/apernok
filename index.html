@@ -26,6 +26,7 @@ mixpanel.init("8d102df27cfc13fff769b7721f0f10ab");</script><!-- end Mixpanel -->
     <link href="css/starter-template.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,10 +35,9 @@ mixpanel.init("8d102df27cfc13fff769b7721f0f10ab");</script><!-- end Mixpanel -->
     <![endif]-->
   </head>
   <body>
-
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-          <h1>AperNOK</h1>
+          <h2>AperNOK</h2>
       </div>
     </nav>
 
@@ -47,7 +47,7 @@ mixpanel.init("8d102df27cfc13fff769b7721f0f10ab");</script><!-- end Mixpanel -->
       <!--<p>Eksempel på AperNOK for annen drikke</p>-->
 
     <!--<div class="table-responsive">-->
-     <table class="table table-hover">
+     <table class="table apernok floatThead-table table-hover">
         <tbody>
           <tr><th>Varenummer</th><th>Varenavn</th><th>Varetype</th><th>Volum (ml)</th><th>Alkohol</th><th>Pris</th><th>AperNOK (ml/nok)</th></tr>
           <tr>
@@ -1409,6 +1409,14 @@ mixpanel.init("8d102df27cfc13fff769b7721f0f10ab");</script><!-- end Mixpanel -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
+    <!-- floathead-->
+    <script src="js/jquery.floathead.js"></script>
+    <script type="text/javascript">
+    $( document ).ready(function() {
+      var $table = $('table.apernok');
+      $table.floatThead();
+      }
+    );
+    </script>
   </body>
 </html>
