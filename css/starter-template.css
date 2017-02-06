@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body {
     padding-top: 50px;
 }
@@ -16,3 +17,17 @@ h2 {
     padding: 40px 15px;
 } 
 
+=======
+body {
+    padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.starter-template {
+    padding: 40px 15px;
+} 
+
+>>>>>>> Stashed changes
